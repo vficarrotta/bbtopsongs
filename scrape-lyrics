@@ -64,5 +64,5 @@ for (i in 1:length(data[, 1])) {
 
     write.table(lyrics, paste(i, names[i], data[i, 4], ".csv"), row.names = F, col.names = F)
 
-    # print(paste(i, names[i])))
+    # print(paste(i, names[i]))
 }
