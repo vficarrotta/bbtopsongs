@@ -54,6 +54,8 @@ for (i in 1:length(data[, 1])) {
     search$clickElement()
     search$sendKeysToElement(list(paste("lyrics", " ", data[i, 2], " ", data[i, 3]), key = "enter"))
 
+    Sys.sleep(1.5)
+
     ## scrape lyrics
     l_url <- unlist(search$getCurrentUrl())
 
